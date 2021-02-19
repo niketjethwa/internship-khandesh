@@ -271,6 +271,10 @@ address {
 		padding-left: 5%;
 	}
 
+	.col-lg-8{
+		width: 100%;
+		background-color: red;
+	}
 	.director-statement > h2{
 		font-size: 30px;
 		text-align: justify;
@@ -283,7 +287,6 @@ address {
 		color: #072050;
 		background-color: yellow;
 	}
-	
 }
 
  /* Small devices (landscape phones, 576px and up) */
