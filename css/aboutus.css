@@ -82,6 +82,7 @@ body{
 	overflow: hidden;
 	margin: 0 auto;
 }
+
 .director-image {
     width: 100%;
     height: auto;
@@ -282,19 +283,18 @@ address {
 		width: 100%;
 	}
 
-	.contact-title h2 {
-		color: #000;
-		margin-bottom: 10px;
-		text-transform: uppercase;
-		font-size: 24px;
-	}
+    .director-image-container {
+        overflow: hidden;
+        margin: 0 auto;
+        background-color: red;
+    }
 
-	.contact-title p {
-		color: #555;
-		letter-spacing: 0.3px;
-		line-height: 1.7;
-		font-size: 14px;
-	}
+    .director-image {
+        width: 100%;
+        height: auto;
+        transition: 0.5s all ease-in-out;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
 
 	.navbar-light .navbar-nav .nav-item .nav-link{
 		padding-left: 5%;
