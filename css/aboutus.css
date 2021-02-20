@@ -319,17 +319,6 @@ address {
 		padding-left: 5%;
 	}
 
-    .vision-container{
-        /* background-color: yellow; */
-        width: 100%;
-    }
-
-    .vision-logo-container, .mission-logo-container, .value-logo-container {
-        padding: 3%;
-        background-color: yellow;
-        text-align: center;
-    }
-
 }
 
  /* Small devices (landscape phones, 576px and up) */
