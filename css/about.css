@@ -47,6 +47,13 @@ body{
 	/* letter-spacing: 5px; */
 }
 
+#director-content{
+    display: inline;
+    float: left;
+    /* padding: 100px 0; */
+    width: 100%;
+}
+
 /* Director Section */
 
 .director-image-container {
