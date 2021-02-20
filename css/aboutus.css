@@ -286,6 +286,7 @@ address {
     .director-image-container {
         overflow: hidden;
         margin: 0 auto;
+        height: auto;
     }
 
     .director-image {
@@ -331,7 +332,6 @@ address {
         margin: 0 auto;
         width: 70%;
         height: auto;
-        background-color: yellow;
     }
 
     .director-image {
@@ -351,6 +351,20 @@ address {
 	.navbar-brand{
 		margin: 0px;
 	}
+
+    .director-image-container {
+        overflow: hidden;
+        margin: 0 auto;
+        width: 70%;
+        height: auto;
+    }
+
+    .director-image {
+        width: 100%;
+        height: auto;
+        transition: 0.5s all ease-in-out;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
 }
 
  /* Large devices (desktops, 992px and up) */
@@ -362,6 +376,8 @@ address {
 	.navbar-brand{
 		margin: 0px;
 	}
+
+    
 }
 
  /* Extra large devices (large desktops, 1200px and up) */
