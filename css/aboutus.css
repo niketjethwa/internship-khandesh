@@ -331,6 +331,7 @@ address {
         margin: 0 auto;
         width: 70%;
         height: auto;
+        background-color: yellow;
     }
 
     .director-image {
