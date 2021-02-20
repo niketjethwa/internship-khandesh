@@ -74,7 +74,7 @@ body{
 #director-content{
     display: inline;
     float: left;
-    padding: 100px 0;
+    /* padding: 100px 0; */
     width: 100%;
 }
 
@@ -327,9 +327,18 @@ address {
 		font-size: 16px;
 	}
 
-	.mapouter{
-		padding-top: 5%;
-	}
+    .director-image-container {
+        overflow: hidden;
+        margin: 0 auto;
+        background-color: yellow
+    }
+
+    .director-image {
+        width: 100%;
+        height: auto;
+        transition: 0.5s all ease-in-out;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
 }
 
  /* Medium devices (tablets, 768px and up) */
