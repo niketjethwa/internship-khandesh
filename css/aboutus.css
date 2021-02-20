@@ -69,12 +69,40 @@ body{
     color:#54EFE8;
 }
 
+/* Director Section */
+
 #director-content{
     display: inline;
     float: left;
     padding: 100px 0;
     width: 100%;
 }
+
+.director-image-container {
+	overflow: hidden;
+	margin: 0 auto;
+}
+.director-image {
+    width: 100%;
+    height: auto;
+	transition: 0.5s all ease-in-out;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.director-image-container:hover .director-image { 
+	transform: scale(1.5); 
+} 
+.director-statement > h2{
+	font-size: 30px;
+	text-align: justify;
+	color: #072050;
+	font-weight: bold;
+}
+.director-statement {
+	font-size: 16px;
+	text-align: justify;
+	color: #072050;
+}
+
 
 .contact-title{
     display: inline;
