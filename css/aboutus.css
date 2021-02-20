@@ -104,25 +104,44 @@ body{
 	color: #072050;
 }
 
-
-.contact-title{
-    display: inline;
-    float: left;
+/* Vision-Mission-Value Section */
+.vision-container, .mission-container, .value-container {
+    
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(#ffffff,#f0fffe);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.vision-logo-container, .mission-logo-container, .value-logo-container {
+    padding: 3%;
+    background-color: #072050;
     text-align: center;
-    width: 100%;
+	
+}
+.vision-statement-container > h2, .mission-statement-container > h2, .value-statement-container > h2 {
+	text-align: center;
+	font-weight: bold;
+	color: #072050;
+	
+}
+.vision-statement-container, .mission-statement-container, .value-statement-container {
+	text-align: justify;
+	font-size: 16px;
+	padding: 5%;
+	color: #072050;
+	
 }
 
-.contact-title h2{
-    color: #000;
-    margin-bottom: 10px;
-    text-transform: uppercase;
+/* Color of logo: #54EFE8 */
+.vision-logo, .mission-logo, .value-logo {
+    height: 10%;
+	width: 25%;
 }
 
-.contact-title p{
-    color: #555;
-    letter-spacing: 0.3px;
-    line-height: 1.7;
+.vision-statement, .mission-statement, .value-statement {
+	padding-top: 10%;
 }
+
 
 
 
@@ -279,7 +298,7 @@ address {
 	#director-content {
 		display: inline;
 		float: left;
-		padding: 50px 0;
+		/* padding: 50px 0; */
 		width: 100%;
 	}
 
@@ -376,8 +395,21 @@ address {
 	.navbar-brand{
 		margin: 0px;
 	}
+    .col-lg-4{
+        max-width: 100%;
+    }
+    .director-image-container {
+        overflow: hidden;
+        margin: 0 auto;
+        width: 100%;
+    }
 
-    
+    .director-image {
+        width: 100%;
+        height: auto;
+        transition: 0.5s all ease-in-out;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
 }
 
  /* Extra large devices (large desktops, 1200px and up) */
