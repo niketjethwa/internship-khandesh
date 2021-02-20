@@ -286,7 +286,6 @@ address {
     .director-image-container {
         overflow: hidden;
         margin: 0 auto;
-        background-color: red;
     }
 
     .director-image {
