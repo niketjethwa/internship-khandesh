@@ -1,5 +1,5 @@
 body{
-	font-family: "Roboto", sans-serif;
+	font-family: "Cambria", sans-serif;
 	font-size: 20px;
 }
 
@@ -67,6 +67,7 @@ body{
 .breadcrumb h2{
     text-align: center;
     color:#54EFE8;
+	letter-spacing: 5px;
 }
 
 /* Director Section */
@@ -76,13 +77,11 @@ body{
     float: left;
     /* padding: 100px 0; */
     width: 100%;
-	background-color: #555;
 }
 
 .director-image-container {
 	overflow: hidden;
 	margin: 0 auto;
-	background-color: #8f00ff;
 }
 
 .director-image {
@@ -105,14 +104,8 @@ body{
 	font-size: 16px;
 	text-align: justify;
 	color: #072050;
-	background-color: blue;
 }
 
-
-/* Niket Vision-Mission Trial  */
-.vision-mission-h1{
-	text-align: center;
-}
 
 
 
@@ -129,6 +122,11 @@ body{
 	background-color: coral;
 	float: bottom;
 }
+
+.vision-mission-row{
+	padding: 4%;
+}
+
 .vision-container, .mission-container, .value-container {
 	height: 100%;
 	width: 100%;
@@ -136,12 +134,13 @@ body{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	background-color: brown;
 }
+
 .vision-logo-container, .mission-logo-container, .value-logo-container {
     padding: 3%;
     background-color: #072050;
     text-align: center;
 }
-.vision-statement-container > h2, .mission-statement-container > h2, .value-statement-container > h2 {
+.vision-statement-container > h3, .mission-statement-container > h3, .value-statement-container > h3{
 	text-align: center;
 	font-weight: bold;
 	color: #072050;
@@ -155,8 +154,8 @@ body{
 
 /* Color of logo: #54EFE8 */
 .vision-logo, .mission-logo, .value-logo {
-    height: 10%;
-	width: 25%;
+    /* height: 10%; */
+	width: 16%;
 }
 
 .vision-statement, .mission-statement, .value-statement {
@@ -196,7 +195,7 @@ body{
 .scrollToTop {
 	border-radius: 4px;
 	bottom: 60px;
-	background-color: #8f00ff;
+	background-color: #072050;
 	color: #fff;
 	display: none;
 	font-size: 30px;
@@ -230,7 +229,7 @@ body{
   
 .scrollToTop:hover {
 	color: white;
-	background-color: #8f00ff;
+	background-color:#072050;
 }
 
 #myFooter{
@@ -380,6 +379,14 @@ address {
         transition: 0.5s all ease-in-out;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
+
+	.vision-container, .mission-container, .value-container {
+		height: 100%;
+		width: 80%;
+		margin-left: 10%;
+		background-image: linear-gradient(#ffffff,#f0fffe);
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
 }
 
  /* Medium devices (tablets, 768px and up) */
@@ -405,6 +412,14 @@ address {
         transition: 0.5s all ease-in-out;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
+
+	.vision-container, .mission-container, .value-container {
+		height: 100%;
+		width: 80%;
+		margin-left: 10%;
+		background-image: linear-gradient(#ffffff,#f0fffe);
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
 }
 
  /* Large devices (desktops, 992px and up) */
@@ -431,6 +446,10 @@ address {
         transition: 0.5s all ease-in-out;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
+
+	.vision-mission-row{
+		padding: 0px;
+	}
 }
 
  /* Extra large devices (large desktops, 1200px and up) */
