@@ -82,6 +82,9 @@ body{
 .director-image-container {
 	overflow: hidden;
 	margin: 0 auto;
+	position: relative;
+	height: 90%;
+	padding-top: 8%;
 }
 
 .director-image {
@@ -91,9 +94,23 @@ body{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	background-color: antiquewhite;
 }
-.director-image-container:hover .director-image { 
+
+/* .director-image-container:hover .director-image { 
 	transform: scale(1.5); 
-} 
+}  */
+
+.director-name {
+	position: absolute;
+	bottom: 0;
+	background: rgb(0, 0, 0); /* Fallback color */
+	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+	color: #f1f1f1;
+	width: 100%;
+	padding: 4px;
+	padding-left: 5%;
+	text-align: left;
+}
+  
 .director-statement > h2{
 	font-size: 30px;
 	text-align: justify;
@@ -438,14 +455,27 @@ address {
         overflow: hidden;
         margin: 0 auto;
         width: 100%;
+		height: 67%;
     }
 
     .director-image {
         width: 100%;
-        height: auto;
+        height: 100%;
         transition: 0.5s all ease-in-out;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
+
+	.director-name {
+		position: absolute;
+		bottom: 0;
+		background: rgb(0, 0, 0); /* Fallback color */
+		background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+		color: #f1f1f1;
+		width: 100%;
+		padding: 4px;
+		padding-left: 5%;
+		text-align: left;
+	}
 
 	.vision-mission-row{
 		padding: 0px;
