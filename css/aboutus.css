@@ -111,6 +111,7 @@ body{
 /* Vision-Mission-Value Section */
 .vmv-container {
 	background-color: coral;
+	float: bottom;
 }
 .vision-container, .mission-container, .value-container {
 	/* height: 100%; */
