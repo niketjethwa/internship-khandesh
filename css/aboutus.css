@@ -110,12 +110,8 @@ body{
 
 
 /* Niket Vision-Mission Trial  */
-#vision-content{
-    display: inline;
-    float: left;
-    /* padding: 100px 0; */
-    width: 100%;
-	background-color: #555;
+.vision-mission-h1{
+	text-align: center;
 }
 
 
