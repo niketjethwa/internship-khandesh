@@ -130,8 +130,7 @@ body{
 	float: bottom;
 }
 .vision-container, .mission-container, .value-container {
-	/* height: 100%; */
-	height: 300px;
+	height: 100%;
 	width: 100%;
 	background-image: linear-gradient(#ffffff,#f0fffe);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
