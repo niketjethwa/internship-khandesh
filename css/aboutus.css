@@ -76,11 +76,13 @@ body{
     float: left;
     /* padding: 100px 0; */
     width: 100%;
+	border: 1px solid black;
 }
 
 .director-image-container {
 	overflow: hidden;
 	margin: 0 auto;
+	border: 1px solid black;
 }
 
 .director-image {
@@ -102,6 +104,7 @@ body{
 	font-size: 16px;
 	text-align: justify;
 	color: #072050;
+	border: 1px solid black;
 }
 
 /* Vision-Mission-Value Section */
@@ -111,6 +114,7 @@ body{
 	width: 100%;
 	background-image: linear-gradient(#ffffff,#f0fffe);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border: 1px solid black;
 }
 .vision-logo-container, .mission-logo-container, .value-logo-container {
     padding: 3%;
